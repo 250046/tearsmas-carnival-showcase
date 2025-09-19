@@ -22,10 +22,14 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          light: "hsl(var(--secondary-light))",
+          dark: "hsl(var(--secondary-dark))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -46,6 +50,12 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        carnival: {
+          gold: "hsl(var(--carnival-gold))",
+          purple: "hsl(var(--carnival-purple))",
+          orange: "hsl(var(--carnival-orange))",
+          green: "hsl(var(--carnival-green))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -84,6 +94,14 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "carnival-bounce": "carnivalBounce 2s infinite",
+        "confetti-float": "confettiFloat 3s ease-in-out infinite",
+        "mask-sway": "maskSway 4s ease-in-out infinite",
+      },
+      fontFamily: {
+        'carnival': ['Fredoka One', 'cursive'],
+        'festive': ['Righteous', 'cursive'],
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
