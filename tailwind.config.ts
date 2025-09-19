@@ -56,6 +56,11 @@ export default {
           purple: "hsl(var(--carnival-purple))",
           orange: "hsl(var(--carnival-orange))",
           green: "hsl(var(--carnival-green))",
+          red: "hsl(var(--carnival-red))",
+          cyan: "hsl(var(--carnival-cyan))",
+          yellow: "hsl(var(--carnival-yellow))",
+          pink: "hsl(var(--carnival-pink))",
+          neon: "hsl(var(--carnival-neon))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
